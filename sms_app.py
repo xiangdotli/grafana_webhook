@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from flask import Flask, request, jsonify, json
 from logging import Formatter
 from logging.handlers import RotatingFileHandler

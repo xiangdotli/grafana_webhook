@@ -1,5 +1,6 @@
 venv
 *.log
 .DS_Store
-.idea/
+.idea
 __pycache__
+*.pyc

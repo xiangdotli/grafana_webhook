@@ -20,3 +20,7 @@ POST http://127.0.0.1:5001/notify
   "state": "alerting",
   "title": "[Alerting] Urgent Issue: high numbers of goroutines"
 }
+
+front flask with gunicorn wsgi http server
+nohup gunicorn3 --workers 8 --bind 0.0.0.0:5555 sms_app:app >& /dev/null &
+
